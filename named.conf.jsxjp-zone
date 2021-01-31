@@ -1,0 +1,4 @@
+zone "jsx.jp" {
+	type master;
+	file "/usr/share/bind9/db.jsxjp";
+};
