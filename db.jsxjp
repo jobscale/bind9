@@ -6,14 +6,19 @@ $TTL	604800
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
-@	IN	NS	ns1.jsx.jp.
-@	IN	NS	ns2.jsx.jp.
-@	IN	NS	ns3.jsx.jp.
+@       IN  NS  ns1.jsx.jp.
+@       IN  NS  ns2.jsx.jp.
+@       IN  NS  ns3.jsx.jp.
 
-secure	IN	NS	ns-cloud-d1.googledomains.com.
-secure	IN	NS	ns-cloud-d2.googledomains.com.
-secure	IN	NS	ns-cloud-d3.googledomains.com.
-secure	IN	NS	ns-cloud-d4.googledomains.com.
+secure  IN  NS  ns-cloud-d1.googledomains.com.
+secure  IN  NS  ns-cloud-d2.googledomains.com.
+secure  IN  NS  ns-cloud-d3.googledomains.com.
+secure  IN  NS  ns-cloud-d4.googledomains.com.
 
-@	IN	A	172.16.6.22
-*	IN	A	172.16.6.22
+aws     IN  NS  ns-cloud-d1.googledomains.com.
+aws     IN  NS  ns-cloud-d2.googledomains.com.
+aws     IN  NS  ns-cloud-d3.googledomains.com.
+aws     IN  NS  ns-cloud-d4.googledomains.com.
+
+@       IN  A   172.16.6.22
+*       IN  A   172.16.6.22
