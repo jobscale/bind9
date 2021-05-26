@@ -10,15 +10,11 @@ $TTL	604800
 @       IN  NS  ns2.jsx.jp.
 @       IN  NS  ns3.jsx.jp.
 
-secure  IN  NS  ns-cloud-d1.googledomains.com.
-secure  IN  NS  ns-cloud-d2.googledomains.com.
-secure  IN  NS  ns-cloud-d3.googledomains.com.
-secure  IN  NS  ns-cloud-d4.googledomains.com.
+jp      IN  NS  NS1.VALUE-DOMAIN.COM.
+jp      IN  NS  NS2.VALUE-DOMAIN.COM.
 
-aws     IN  NS  ns-cloud-d1.googledomains.com.
-aws     IN  NS  ns-cloud-d2.googledomains.com.
-aws     IN  NS  ns-cloud-d3.googledomains.com.
-aws     IN  NS  ns-cloud-d4.googledomains.com.
+aws     IN  NS  NS1.VALUE-DOMAIN.COM.
+aws     IN  NS  NS2.VALUE-DOMAIN.COM.
 
 @       IN  A   172.16.6.22
 *       IN  A   172.16.6.22
