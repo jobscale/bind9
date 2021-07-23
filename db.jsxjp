@@ -6,18 +6,49 @@ $TTL	604800
 			2419200		; Expire
 			 604800 )	; Negative Cache TTL
 ;
+
 @       IN  NS  ns1.jsx.jp.
 @       IN  NS  ns2.jsx.jp.
 @       IN  NS  ns3.jsx.jp.
 
-jp      IN  NS  NS1.VALUE-DOMAIN.COM.
-jp      IN  NS  NS2.VALUE-DOMAIN.COM.
-
-in      IN  NS  NS1.VALUE-DOMAIN.COM.
-in      IN  NS  NS2.VALUE-DOMAIN.COM.
+@       IN  A   172.16.6.22
+*       IN  A   172.16.6.22
 
 secure  IN  NS  NS1.VALUE-DOMAIN.COM.
 secure  IN  NS  NS2.VALUE-DOMAIN.COM.
 
-@       IN  A   172.16.6.22
-*       IN  A   172.16.6.22
+share   IN  NS  NS1.VALUE-DOMAIN.COM.
+share   IN  NS  NS2.VALUE-DOMAIN.COM.
+
+store   IN  NS  NS1.VALUE-DOMAIN.COM.
+store   IN  NS  NS2.VALUE-DOMAIN.COM.
+
+gate    IN  NS  NS1.VALUE-DOMAIN.COM.
+gate    IN  NS  NS2.VALUE-DOMAIN.COM.
+
+shop    IN  NS  NS1.VALUE-DOMAIN.COM.
+shop    IN  NS  NS2.VALUE-DOMAIN.COM.
+
+cms     IN  NS  NS1.VALUE-DOMAIN.COM.
+cms     IN  NS  NS2.VALUE-DOMAIN.COM.
+
+jp      IN  NS  NS1.VALUE-DOMAIN.COM.
+jp      IN  NS  NS2.VALUE-DOMAIN.COM.
+
+us      IN  NS  NS1.VALUE-DOMAIN.COM.
+us      IN  NS  NS2.VALUE-DOMAIN.COM.
+
+eu      IN  NS  NS1.VALUE-DOMAIN.COM.
+eu      IN  NS  NS2.VALUE-DOMAIN.COM.
+
+os      IN  NS  NS1.VALUE-DOMAIN.COM.
+os      IN  NS  NS2.VALUE-DOMAIN.COM.
+
+in      IN  NS  NS1.VALUE-DOMAIN.COM.
+in      IN  NS  NS2.VALUE-DOMAIN.COM.
+
+s       IN  NS  NS1.VALUE-DOMAIN.COM.
+s       IN  NS  NS2.VALUE-DOMAIN.COM.
+
+x       IN  NS  NS1.VALUE-DOMAIN.COM.
+x       IN  NS  NS2.VALUE-DOMAIN.COM.
