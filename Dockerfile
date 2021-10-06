@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:bullseye-slim
 SHELL ["bash", "-c"]
 WORKDIR /usr/share/bind9
 ENV DEBIAN_FRONTEND noninteractive
