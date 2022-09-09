@@ -14,6 +14,9 @@ $TTL	604800
 @       IN  A   172.16.6.22
 *       IN  A   172.16.6.22
 
+mail    IN  NS  NS1.VALUE-DOMAIN.COM.
+mail    IN  NS  NS2.VALUE-DOMAIN.COM.
+
 m       IN  NS  NS1.VALUE-DOMAIN.COM.
 m       IN  NS  NS2.VALUE-DOMAIN.COM.
 
