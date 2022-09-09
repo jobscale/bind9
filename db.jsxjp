@@ -14,11 +14,15 @@ $TTL	604800
 @       IN  A   172.16.6.22
 *       IN  A   172.16.6.22
 
-cdn     IN  NS  NS1.VALUE-DOMAIN.COM.
-cdn     IN  NS  NS2.VALUE-DOMAIN.COM.
-
 m       IN  NS  NS1.VALUE-DOMAIN.COM.
 m       IN  NS  NS2.VALUE-DOMAIN.COM.
+
+@       IN  MX  5  mx1.m.jsx.jp.
+@       IN  MX  10 mx2.m.jsx.jp.
+@       IN  MX  20 mx3.m.jsx.jp.
+
+cdn     IN  NS  NS1.VALUE-DOMAIN.COM.
+cdn     IN  NS  NS2.VALUE-DOMAIN.COM.
 
 secure  IN  NS  NS1.VALUE-DOMAIN.COM.
 secure  IN  NS  NS2.VALUE-DOMAIN.COM.

@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 set -eu
 
-/etc/init.d/bind9 reload
+/etc/init.d/named reload
