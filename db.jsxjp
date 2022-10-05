@@ -1,10 +1,10 @@
-$TTL	604800
-@	IN	SOA	jsx.jp. root.jsx.jp. (
+$TTL	900
+@	IN	SOA	ns1.jsx.jp. dns-admin.jsx.jp. (
 			      2		; Serial
-			 604800		; Refresh
-			  86400		; Retry
-			2419200		; Expire
-			 604800 )	; Negative Cache TTL
+			    900		; Refresh
+			    900		; Retry
+			   1800		; Expire
+			     60 )	; Negative Cache TTL
 ;
 
 @       IN  NS  ns1.jsx.jp.
@@ -20,9 +20,10 @@ mail    IN  NS  NS2.VALUE-DOMAIN.COM.
 m       IN  NS  NS1.VALUE-DOMAIN.COM.
 m       IN  NS  NS2.VALUE-DOMAIN.COM.
 
-@       IN  MX  5  mx1.m.jsx.jp.
-@       IN  MX  10 mx2.m.jsx.jp.
-@       IN  MX  20 mx3.m.jsx.jp.
+@       IN  MX  5  m.jsx.jp.
+@       IN  MX  10 m1-smtp.m.jsx.jp.
+@       IN  MX  20 m2-smtp.m.jsx.jp.
+@       IN  MX  30 m3-smtp.m.jsx.jp.
 
 cdn     IN  NS  NS1.VALUE-DOMAIN.COM.
 cdn     IN  NS  NS2.VALUE-DOMAIN.COM.
@@ -50,9 +51,6 @@ perl    IN  NS  NS2.VALUE-DOMAIN.COM.
 
 ruby    IN  NS  NS1.VALUE-DOMAIN.COM.
 ruby    IN  NS  NS2.VALUE-DOMAIN.COM.
-
-secure  IN  NS  NS1.VALUE-DOMAIN.COM.
-secure  IN  NS  NS2.VALUE-DOMAIN.COM.
 
 api     IN  NS  NS1.VALUE-DOMAIN.COM.
 api     IN  NS  NS2.VALUE-DOMAIN.COM.
