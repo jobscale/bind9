@@ -1,0 +1,15 @@
+$TTL	900
+@	IN	SOA	ns1.jsx.jp. dns-admin.jsx.jp. (
+			      2		; Serial
+			    900		; Refresh
+			    900		; Retry
+			   1800		; Expire
+			     60 )	; Negative Cache TTL
+;
+
+@       IN  NS  ns1.jsx.jp.
+@       IN  NS  ns2.jsx.jp.
+@       IN  NS  ns3.jsx.jp.
+
+@       IN  A   172.16.6.22
+*       IN  A   172.16.6.22

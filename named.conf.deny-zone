@@ -1,0 +1,64 @@
+zone "cu-ad.tbs.co.jp" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
+zone "cu-cdn-ad.ntv.co.jp" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
+zone "fod-cm-ad-v.webcdn.stream.ne.jp" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
+zone "i.socdm.com" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
+zone "gcdn.2mdn.net" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
+zone "cdn.spotxcdn.com" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
+zone "cdn.as.amanad.adtdp.com" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
+zone "videoad.tv-tokyo.co.jp" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
+zone "chesterstream.akamaized.net" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
+zone "tver-pmp.dspcdn.com" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
+zone "video-assets.mathtag.com" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
+zone "v.adsrvr.org" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
+zone "redirector.gvt1.com" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
