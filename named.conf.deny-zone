@@ -8,6 +8,11 @@ zone "cu-cdn-ad.ntv.co.jp" {
 	file "/usr/share/bind9/db.deny";
 };
 
+zone "cu-cdn-ad.ytv.co.jp" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
 zone "fod-cm-ad-v.webcdn.stream.ne.jp" {
 	type master;
 	file "/usr/share/bind9/db.deny";
