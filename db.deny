@@ -11,5 +11,5 @@ $TTL	900
 @       IN  NS  ns2.jsx.jp.
 @       IN  NS  ns3.jsx.jp.
 
-@       IN  A   172.16.6.22
-*       IN  A   172.16.6.22
+@       IN  CNAME  jsx.jp.
+*       IN  CNAME  jsx.jp.
