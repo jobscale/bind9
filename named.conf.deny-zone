@@ -8,6 +8,11 @@ zone "cu-ad.tbs.co.jp" {
 	file "/usr/share/bind9/db.deny";
 };
 
+zone "cu-ad.mbs.jp" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
 zone "cu-cdn-ad.ntv.co.jp" {
 	type master;
 	file "/usr/share/bind9/db.deny";
