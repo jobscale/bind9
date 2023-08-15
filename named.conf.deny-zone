@@ -3,6 +3,11 @@ zone "txcom-ad.s3-ap-northeast-1.amazonaws.com" {
 	file "/usr/share/bind9/db.deny";
 };
 
+zone "catch-up.tv-osaka.co.jp" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
 zone "cu-ad.tbs.co.jp" {
 	type master;
 	file "/usr/share/bind9/db.deny";
