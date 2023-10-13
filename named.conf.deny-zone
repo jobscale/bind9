@@ -28,6 +28,11 @@ zone "cu-cdn-ad-v3.ntv.co.jp" {
 	file "/usr/share/bind9/db.deny";
 };
 
+zone "cdncuad.ktv.jp" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
 zone "cu-cdn-ad.ytv.co.jp" {
 	type master;
 	file "/usr/share/bind9/db.deny";
