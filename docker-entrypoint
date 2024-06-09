@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -u
+
+main() {
+  /etc/init.d/named start
+  nc -vz -w 1 -u 127.0.0.1 53
+  node .
+}
+
+[[ $# == 0 ]] && main || command $@
