@@ -1,15 +1,15 @@
-$TTL	900
-@	IN	SOA	ns1.jsx.jp. dns-admin.jsx.jp. (
-			      2		; Serial
-			    900		; Refresh
-			    900		; Retry
-			   1800		; Expire
-			     60 )	; Negative Cache TTL
-;
+$TTL 900
+@  IN  SOA  dns-external.jsx.jp. dns-admin.jsx.jp. (
+       1 ; Serial
+     900 ; Refresh
+     300 ; Retry
+  604800 ; Expire
+      60 ; Negative Cache TTL
+);
 
 @       IN  NS  ns1.jsx.jp.
 @       IN  NS  ns2.jsx.jp.
 @       IN  NS  ns3.jsx.jp.
 
-@       IN  A  76.76.21.22
-*       IN  A  76.76.21.22
+@       IN  CNAME  github.io.
+*       IN  CNAME  github.io.
