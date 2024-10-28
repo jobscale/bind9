@@ -48,6 +48,11 @@ zone "i.socdm.com" {
 	file "/usr/share/bind9/db.deny";
 };
 
+zone "s.socdm.com" {
+	type master;
+	file "/usr/share/bind9/db.deny";
+};
+
 zone "gcdn.2mdn.net" {
 	type master;
 	file "/usr/share/bind9/db.deny";
