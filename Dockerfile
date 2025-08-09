@@ -2,7 +2,7 @@ FROM node:lts-bookworm-slim
 SHELL ["bash", "-c"]
 WORKDIR /usr/share/bind9
 ENV DEBIAN_FRONTEND noninteractive
-RUN apt-get update && apt-get install -y bind9 vim dnsutils netcat-openbsd \
+RUN apt-get update && apt-get install -y --no-install-recommends bind9 vim dnsutils netcat-openbsd \
  && apt-get clean && rm -fr /var/lib/apt/lists/*
 RUN echo 'include "/usr/share/bind9/named.conf.jsxjp-zone";' >> /etc/bind/named.conf
 RUN echo 'include "/usr/share/bind9/named.conf.deny-zone";' >> /etc/bind/named.conf
