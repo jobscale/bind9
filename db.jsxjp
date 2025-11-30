@@ -29,6 +29,9 @@ m       IN  NS  NS2.GSLB13.SAKURA.NE.JP.
 @       IN  MX  20 m2-smtp.m.jsx.jp.
 @       IN  MX  30 m3-smtp.m.jsx.jp.
 
+noble   IN  NS  NS1.GSLB13.SAKURA.NE.JP.
+noble   IN  NS  NS2.GSLB13.SAKURA.NE.JP.
+
 wifi    IN  NS  NS1.GSLB13.SAKURA.NE.JP.
 wifi    IN  NS  NS2.GSLB13.SAKURA.NE.JP.
 
