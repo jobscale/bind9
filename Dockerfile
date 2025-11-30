@@ -1,4 +1,4 @@
-FROM node:lts-tixie-slim
+FROM node:lts-trixie-slim
 SHELL ["bash", "-c"]
 WORKDIR /usr/share/bind9
 ENV DEBIAN_FRONTEND=noninteractive
